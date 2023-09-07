@@ -12,4 +12,8 @@ class Solver
         end
         return result
     end
+
+    def reverse(word)
+        return word.split('').reverse.join('')
+    end
 end
