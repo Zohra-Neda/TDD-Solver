@@ -25,4 +25,11 @@ it 'should return olleh if input word is hello' do
     expect(result).to eq('olleh')
 end
 end
+
+describe '#fizzbuzz' do
+it 'return "fizz" when divisible by 3' do
+    solver = Solver.new();
+    expect(solver.fizzbuzz(9)).to eq('fizz')
+end
+end
 end
