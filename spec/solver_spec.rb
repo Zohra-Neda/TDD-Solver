@@ -31,5 +31,9 @@ it 'return "fizz" when divisible by 3' do
     solver = Solver.new();
     expect(solver.fizzbuzz(9)).to eq('fizz')
 end
+it 'return "buzz" when divisible by 5' do
+    solver = Solver.new();
+    expect(solver.fizzbuzz(10)).to eq('buzz')
+end
 end
 end
