@@ -16,4 +16,8 @@ class Solver
     def reverse(word)
         return word.split('').reverse.join('')
     end
+
+    def fizzbuzz(number)
+        return 'fizz' if (number % 3).zero?
+    end
 end
